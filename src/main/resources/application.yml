@@ -1,0 +1,13 @@
+server:
+  port: 8182
+spring:
+  application:
+    name: office
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydatabase
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    mybatis:
+      mapper-locations: classpath:mapper/*.xml
