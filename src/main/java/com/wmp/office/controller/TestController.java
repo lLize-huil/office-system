@@ -14,9 +14,9 @@ public class TestController {
     @Autowired
     TestService testService;
 
-    @GetMapping("/environment")
-    public ApiResult getEnvironment(@RequestParam("type") Integer type) {
-        return testService.getEnvironment(type);
+    @GetMapping("/test")
+    public ApiResult test(@RequestParam("type") Integer type) {
+        return testService.test(type);
     }
 
 

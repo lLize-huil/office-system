@@ -38,6 +38,13 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
+		<!--自动建表-->
+		<dependency>
+			<groupId>com.gitee.sunchenbin.mybatis.actable</groupId>
+			<artifactId>mybatis-enhance-actable</artifactId>
+			<version>1.5.0.RELEASE</version>
+		</dependency>
+
 		<!-- MySQL 连接驱动 -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -51,15 +58,19 @@
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>3.0.3</version>
 		</dependency>
+
+		<!--  Web注解  -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+		<!--  日志  -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<scope>provided</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>
